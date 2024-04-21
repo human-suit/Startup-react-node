@@ -1,0 +1,115 @@
+.mes{
+    display: flex;
+    margin-top: 20px;
+}
+.lef{
+    text-align: left;
+    width: 700px;
+    border-radius: 20px;
+    padding: 20px;
+    background: white;
+}
+.pep{
+    margin-top: 30px;
+    font-size: 21px;
+    font-family: "Open Sans";
+    width: 680px;
+    height: 140px;
+    color: #6E7880;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.hus{
+    height: 120px;
+    -webkit-line-clamp: 3; /* Число отображаемых строк */
+    display: -webkit-box; /* Включаем флексбоксы */
+    -webkit-box-orient: vertical; /* Вертикальная ориентация */
+    overflow: hidden;
+    
+    
+    text-overflow: ellipsis;
+    font-family: "Montserrat";
+    padding: 0;
+    margin: 0;
+    font-size: 36px;
+    color: #000000;
+}
+.button{
+    margin-top: 30px;
+    background: #45459D;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 21px;
+    font-family: "Open Sans";
+}
+.rig{
+    text-align: center;
+    margin: 0px 20px;
+    border-radius: 20px;
+    padding: 10px;
+    background-size: cover;
+    background-image: url("../images/send.jpg");
+    background-repeat: no-repeat;
+    
+    z-index: -10;
+}
+.gree{
+    z-index: 10;
+    color: #000000;
+    padding: 10px;
+    width: 350px;
+    border-radius: 20px;
+    background: #FFFFFF66;
+}
+.pereh{
+    padding: 0px 10px;
+}
+.flex{
+    display: flex;
+}
+.top{
+    margin: 30px 0px;
+}
+.bu{
+    padding: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #2D4EF8;
+    border: 0px;
+    border-radius: 10px;
+    transition: 1s;
+    
+}
+.per{
+    padding: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #2D4EF8;
+    border: 0px;
+    border-radius: 10px;
+    transition: 1s;
+    border-color: rgba(159, 164, 168, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+    outline: 0 none;
+}
+.lec{
+    border: 0px;
+    color: #6E7880;
+    font-size: 90px;
+    background: #ECF7FD;
+    transition: 1s;
+}
+.lec:hover, .lec:focus{
+    color: rgba(82, 168, 236, 0.8);
+    font-size: 38;
+}
+.button:hover{
+    cursor: pointer;
+}
+#toc{
+    margin-right: 20px;
+}
